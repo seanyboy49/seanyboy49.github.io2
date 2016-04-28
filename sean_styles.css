@@ -1,3 +1,21 @@
-body {
+main {
+  max-width: 756px;
+  min-width: 520px;
+}
+
+aside {
+	max-width: 600px;
+	min-width: 520px;
+}
+
+section h2.Question {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.Chart {
+	display: inline-block;
+	vertical-align: top;
+	float: right;
 	background-color: blue;
 }
