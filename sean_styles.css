@@ -1,5 +1,5 @@
 main {
-  max-width: 756px;
+  max-width: 756px; 
   min-width: 520px;
 }
 /*First Section*/
@@ -42,7 +42,7 @@ main {
 		vertical-align: top;
 		padding-top: 50px;
 		font-family: futura;
-		font-size: 75px;
+		font-size: 55px;
 	}
 
 	#Chart {
