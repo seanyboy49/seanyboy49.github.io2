@@ -23,7 +23,7 @@ a {
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
-  color: #F05F40;
+  color:  blue;
 }
 a:hover,
 a:focus {
@@ -70,7 +70,7 @@ aside {
   transition: all 0.35s;
 }
 .navbar-default .navbar-header .navbar-brand {
-  color: #F05F40;
+  color:  blue;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   font-weight: 700;
   text-transform: uppercase;
@@ -94,11 +94,12 @@ aside {
 }
 .navbar-default .nav > li > a:hover,
 .navbar-default .nav > li > a:focus:hover {
-  color: #F05F40;
+  color: blue;
 }
+/*When nav bar is fixed upon page scroll down*/
 .navbar-default .nav > li.active > a,
 .navbar-default .nav > li.active > a:focus {
-  color: #F05F40 !important;
+  color: #3498DB !important;
   background-color: transparent;
 }
 .navbar-default .nav > li.active > a:hover,
@@ -113,14 +114,17 @@ aside {
   .navbar-default .navbar-header .navbar-brand {
     color: rgba(255, 255, 255, 0.7);
   }
+  /*SEAN*/
   .navbar-default .navbar-header .navbar-brand:hover,
   .navbar-default .navbar-header .navbar-brand:focus {
     color: white;
   }
+  /*ABOUT SERVICES PORTFOLIO CONTACT AT TOP*/
   .navbar-default .nav > li > a,
   .navbar-default .nav > li > a:focus {
     color: rgba(255, 255, 255, 0.7);
   }
+
   .navbar-default .nav > li > a:hover,
   .navbar-default .nav > li > a:focus:hover {
     color: white;
@@ -129,21 +133,23 @@ aside {
     background-color: white;
     border-color: rgba(34, 34, 34, 0.05);
   }
+  /*SEAN LEE UPON PAGE SCROLL DOWN*/
   .navbar-default.affix .navbar-header .navbar-brand {
-    color: #F05F40;
+    color: #3498DB;
     font-size: 14px;
   }
   .navbar-default.affix .navbar-header .navbar-brand:hover,
   .navbar-default.affix .navbar-header .navbar-brand:focus {
-    color: #eb3812;
+    color: #3498DB;
   }
   .navbar-default.affix .nav > li > a,
   .navbar-default.affix .nav > li > a:focus {
-    color: #222222;
+    color: black;
   }
+  /*ABOUT SERVICES PORT CONTACT ON HOVER*/
   .navbar-default.affix .nav > li > a:hover,
   .navbar-default.affix .nav > li > a:focus:hover {
-    color: #F05F40;
+    color: #3498DB;
   }
 }
 header {
@@ -155,7 +161,7 @@ header {
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
-  background-image: url('../img/header.jpg');
+  background-image: url('../img/bridge.jpg');
   text-align: center;
   color: white;
 }
@@ -388,7 +394,7 @@ header .header-content .header-content-inner p {
   margin: 0 auto 20px;
 }
 .text-primary {
-  color: #F05F40;
+  color: #3498DB;
 }
 .no-gutter > [class*='col-'] {
   padding-right: 0;
@@ -445,7 +451,7 @@ fieldset[disabled] .btn-default.active {
 .btn-primary {
   color: white;
   background-color: #3498DB;
-  border-color: #F05F40;
+  border-color: blue;
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
@@ -457,7 +463,7 @@ fieldset[disabled] .btn-default.active {
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
   color: white;
-  background-color: #ee4b28;
+  background-color: blue;
   border-color: #ed431f;
 }
 .btn-primary:active,
@@ -483,11 +489,11 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-  background-color: #F05F40;
-  border-color: #F05F40;
+  background-color: blue;
+  border-color: blue;
 }
 .btn-primary .badge {
-  color: #F05F40;
+  color: blue;
   background-color: white;
 }
 .btn {
