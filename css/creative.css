@@ -527,3 +527,13 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: #222222;
 }
+
+/*custom icons*/
+
+.icon-bull-horn {
+  background-image: url('../img/Icons_Bullhorn.png');
+  background-position: center center;
+  height: 10px;
+  /*line-height: 10px;*/
+  width: 10px;
+}

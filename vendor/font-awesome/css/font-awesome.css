@@ -1685,6 +1685,24 @@
 .fa-cc:before {
   content: "\f20a";
 }
+
+/*custom icons*/
+.fa-backend:before {
+  content: url("../../../img/icons/Icons_Backend.png");
+}
+
+.fa-frontend:before {
+  content: url("../../../img/icons/Icons_FrontEnd.png");
+}
+
+.fa-bullhorn:before {
+  content: url("../../../img/icons/Icons_Bullhorn.png");
+}
+
+.fa-design:before {
+  content: url("../../../img/icons/Icons_Design.png");
+}
+
 .fa-shekel:before,
 .fa-sheqel:before,
 .fa-ils:before {
